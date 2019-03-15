@@ -1,0 +1,174 @@
+div#admin-center {
+	margin: 0px;
+	padding: 10px;
+}
+
+div#admin-center h1 {
+	font-family: Georgia;
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: underline;
+	color: #606;
+	text-align: center;
+}
+
+div#admin-center span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #606;
+}
+
+div#admin-center h2 {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+	margin-left: 10px;
+	border: 0px;
+	border-bottom: 1px solid #0078ff;
+	width: 300px;
+	text-align: right;
+}
+
+div#admin-center div {
+	margin-left: 15px;
+	border: 1px solid #8a6c1b;
+	background: #f9e2a2;
+	width: 550px;
+}
+
+div#admin-center div span.link {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style:normal;
+	text-decoration: underline;
+	color: #024591;
+}
+
+div#admin-center div.hide {
+	display: none;
+}
+
+div#admin-center div.show {
+	display: block;
+}
+
+div#admin-center div#func-info {
+	margin-left: 15px;
+	border: 1px solid #0078ff;
+	background: #add2fb;
+	width: 550px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+div#admin-center div#func-info span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	color: #000;
+}
+
+div#admin-center div#axs-info {
+	margin-left: 15px;
+	border: 1px solid #0078ff;
+	background: #add2fb;
+	width: 550px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+div#admin-center div#axs-info span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	color: #000;
+}
+
+div#admin-center div#man-info {
+	margin-left: 15px;
+	border: 1px solid #0078ff;
+	background: #add2fb;
+	width: 550px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+div#admin-center div#man-info span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	color: #000;
+}
+
+div#admin-center div input {
+	background: #fff;
+	border: 1px solid #8a6c1b;
+	width: 125px;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #8a6c1b;
+}
+
+div#admin-center div input.manage-tech {
+	background: #fff;
+	border: 1px solid #8a6c1b;
+	width: 120px;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #8a6c1b;
+}
+
+div#admin-center div input.func {
+	background: #fff;
+	border: 1px solid #8a6c1b;
+	width: 175px;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #8a6c1b;
+}
+
+div#admin-center div div#add-tech {
+	border: 0px solid #000;
+	width: 500px;
+	margin-top: 5px;
+}
+
+div#admin-center div div#add-tech label {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: underline;
+	color: #0078ff;
+}
+
+div#admin-center div div.show {
+	display: block;
+}
+
+div#admin-center div div.hide {
+	display: none;
+}

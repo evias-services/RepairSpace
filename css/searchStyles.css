@@ -1,0 +1,329 @@
+div#search-box {
+	background: #fff;
+	width: 250px;
+	height: 35px;
+	border: 0px dashed #0078ff;
+	border-bottom: 1px solid #03c;
+	position:absolute;
+	top: 10px;
+	right: 15px;
+}
+
+div#search-box input.text {
+	border: 1px dashed #0078ff;
+	background: #f6f7fb;
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	width: 200px;
+}
+
+div#search-box input.go {
+	border: 1px solid #0078ff;
+	background: #f9fbfb;
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+div#results {
+/*	background: #f6f7fb;*/
+	background: #fff;
+/*	border: 1px solid #090;*/
+	width: 640px;
+	height: 90%;
+	margin-top: 50px;
+	margin-left: 5px;
+}
+
+div#results div#info-search {
+	border: 0px;
+	border-bottom: 1px solid #3f75ac;
+	background: #f6f7fb;
+	padding: 0px;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-bottom: 8px;
+}
+
+div#results div#info-search span {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #99e;
+}
+
+
+div#results h1 {
+	font-family: Georgia;
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #363;
+	text-align: center;
+}
+
+div#results div#res-clients {
+	border: 0px solid #000;
+	width: 630px;
+/*	height: 80px;*/
+	padding: 5px;
+	overflow:auto;
+}
+
+div#results div#res-clients div.title {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	border: 0px solid #f00;
+	border-bottom: 1px solid #c00;
+	text-align: right;
+}
+
+div#results div#res-clients div.title span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #c00;
+}
+
+div#results div#res-clients div.results {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	border: 0px solid #00f;
+	padding: 0px;
+	padding-left: 50px;
+}
+
+div#results div#res-clients div.results span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #c66;
+}
+
+div#results div#res-clients div.results ul {
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid #f00;	
+/*	height: 70px;*/
+/*	overflow: auto;*/
+}
+
+
+div#results div#res-clients div.results ul li {
+	list-style-type: none;
+	float: left;
+	margin-left: 5px;
+}
+
+div#results div#res-clients div.results ul li span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #c66;
+}
+
+div#results div#res-tech {
+	border: 0px solid #000;
+	width: 630px;
+/*	height: 80px;*/
+	padding: 5px;
+	overflow:auto;
+}
+
+div#results div#res-tech div.title {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	border: 0px solid #f00;
+	border-bottom: 1px solid #06c;
+	text-align: right;
+}
+
+div#results div#res-tech div.title span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #06c;
+}
+
+div#results div#res-tech div.results {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	border: 0px solid #00f;
+	padding: 0px;
+	padding-left: 50px;
+}
+
+div#results div#res-tech div.results span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #39c;
+}
+
+div#results div#res-tech div.results ul {
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid #f00;
+/*	height: 70px;
+	overflow: auto;*/
+}
+
+div#results div#res-tech div.results ul li {
+	list-style-type: none;
+	float: left;
+	margin-left: 5px;
+}
+
+div#results div#res-tech div.results ul li span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #39c;
+}
+
+div#results div#res-prest {
+	border: 0px solid #000;
+	width: 630px;
+/*	height: 80px;*/
+	padding: 5px;
+	overflow:auto;
+}
+
+div#results div#res-prest div.title {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	border: 0px solid #f00;
+	border-bottom: 1px solid #639;
+	text-align: right;
+}
+
+div#results div#res-prest div.title span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #639;
+}
+
+div#results div#res-prest div.results {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	border: 0px solid #00f;
+	padding: 0px;
+	padding-left: 50px;
+}
+
+div#results div#res-prest div.results span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #96c;
+}
+
+div#results div#res-prest div.results ul {
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid #f00;
+/*	height: 70px;
+	overflow: auto;*/
+}
+
+div#results div#res-prest div.results ul li {
+	list-style-type: none;
+	float: left;
+	margin-left: 5px;
+}
+
+div#results div#res-prest div.results ul li span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #96c;
+}
+
+div#results div#res-mac {
+	border: 0px solid #000;
+	width: 630px;
+/*	height: 80px;*/
+	padding: 5px;
+	overflow:auto;
+}
+
+div#results div#res-mac div.title {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	border: 0px solid #f00;
+	border-bottom: 1px solid #930;
+	text-align: right;
+}
+
+div#results div#res-mac div.title span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #930;
+}
+
+div#results div#res-mac div.results {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	border: 0px solid #00f;
+	padding: 0px;
+	padding-left: 50px;
+}
+
+div#results div#res-mac div.results span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #c63;
+}
+
+div#results div#res-mac div.results ul {
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid #f00;
+/*	height: 70px;
+	overflow: auto;*/
+}
+
+div#results div#res-mac div.results ul li {
+	list-style-type: none;
+	float: left;
+	margin-left: 5px;
+}
+
+div#results div#res-mac div.results ul li span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #c63;
+}

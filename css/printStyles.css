@@ -1,0 +1,236 @@
+a.print:link, a.print:visited {
+	font-family: Verdana; 
+	font-size: 8pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #930;
+	text-decoration: none;
+}
+
+a.print:hover, a.print:active {
+	font-family: Verdana; 
+	font-size: 8pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #930;
+	text-decoration: underline;
+}
+
+div#file-search {
+	border: 0px;
+	border-bottom: 1px solid #0467e0;
+	margin: 5px;
+	text-align:right;
+}
+
+div#file-search label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+} 
+
+div#file-search span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#file-search input.button {
+border: 1px solid #701604;
+	background: #f6f7fb;
+	height: 20px;
+	width: 50px;
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+	margin: 5px;
+}
+
+div#file-search input.text {
+border: 1px solid #701604;
+	background: #fff;
+	height: 20px;
+	width: 175px;
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+div#search-results {
+	background: #fff;
+	border: 0px solid #090;
+	margin-top: 20px;
+	margin-left:5px;
+	overflow: auto;
+}
+
+h1 {
+	font-family: Georgia;
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #007;
+	text-align: center;
+}
+
+ div#info-print {
+	border: 0px;
+	border-bottom: 1px solid #3f75ac;
+	background: #f6f7fb;
+	padding: 0px;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-bottom: 8px;
+}
+
+div#info-print span {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #99e;
+}
+
+
+div#search-results div#res-clients {
+	border: 0px solid #000;
+	width: 630px;
+/*	height: 80px;*/
+	padding: 5px;
+	overflow:auto;
+}
+
+div#search-results div#res-clients div.title {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	border: 0px solid #f00;
+	border-bottom: 1px solid #c00;
+	text-align: right;
+}
+
+div#search-results div#res-clients div.title span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #c00;
+}
+
+div#search-results div#res-clients div.results {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	border: 0px solid #00f;
+	padding: 0px;
+	padding-left: 50px;
+}
+
+div#search-results div#res-clients div.results span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #c66;
+}
+
+div#search-results div#res-clients div.results ul {
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid #f00;	
+/*	height: 70px;*/
+/*	overflow: auto;*/
+}
+
+
+div#search-results div#res-clients div.results ul li {
+	list-style-type: none;
+	float: left;
+	margin-left: 5px;
+}
+
+div#search-results div#res-clients div.results ul li span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #c66;
+}
+
+
+div#search-results  div.rep {
+	border: 0px solid #f00;
+	margin: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+div#search-results  div.rep div.title {
+	position: relative;
+	left:0px;
+	top: 0px;
+	border: 0px solid #f00;
+	border-bottom: 1px solid #881e98;
+	width: 75%;
+	margin: 0px;
+	margin-left: 15px;
+	height: 15px;
+}
+
+div#search-results div.rep div.title span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #881e98;
+}
+
+div#search-results div.rep div.data {
+	border: 0px solid #000;
+}
+
+div#search-results div.rep div.data label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#search-results div.rep div.data span {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#search-results div.rep div.data ul {
+	border: 0px solid #000;
+	border-left: 1px solid #881e98;
+	margin: 0px;
+	margin-left: 25px;
+	padding: 0px;
+	padding-left: 7px;
+/*	height: 90px;*/
+/*	width: 350px;*/
+	overflow: auto;
+}
+
+div#search-results div.rep div.data ul li {
+	list-style-type: none;
+	margin-top: 2px;
+	margin-bottom: 1px;
+	line-height: 15px;
+}

@@ -1,0 +1,11 @@
+div div ul {
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+}
+
+div div ul li {
+	list-style-type: circle;
+	list-style-position: inside;
+	color: #0078ff;
+}

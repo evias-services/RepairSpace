@@ -1,0 +1,909 @@
+div#away-box {
+	border: 0px solid #000;
+	padding: 5px;
+}
+
+div#away-box div.hide {
+	display: block;
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+div#away-box div.show {
+	display: block;
+	background: #f6f7fb;
+	border: 1px solid #0078ff;
+	text-align:center;
+}
+
+div#away-box span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: italic;
+	color: #039;
+}
+
+div#away-box h1 {
+	font-family: Georgia;
+	font-size: 15pt;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #039;
+}
+
+div#away-box h2 {
+	font-family: Georgia;
+	font-size: 12pt;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: italic;
+	color: #039;
+}
+
+div#away-box hr {
+	width: 80%;
+	color: #0078ff;
+	clear: both;
+}
+
+div#away-box div#info-away {
+	border: 0px;
+	border-bottom: 1px solid #3f75ac;
+	background: #f6f7fb;
+	padding: 0px;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-bottom: 8px;
+}
+
+div#away-box div#info-away span {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #99e;
+}
+
+div#away-box div#away-menu {
+	border: 0px solid #000;
+}
+
+div#away-box div#away-menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#away-box div#away-menu ul li {
+	list-style-type: circle;
+	list-style-position: inside;
+	float: left;
+	width: 190px;
+	border: 0px solid #000;
+	padding: 0px;
+}
+
+div#away-box ul#deplacements-ajd {
+	margin: 10px;
+	padding: 0px;
+	padding-left: 5px;
+	border: 0px solid #039;
+	border-left: 1px solid #0078ff;
+	height: 145px;
+	width: 80%;
+	overflow:auto;
+}
+
+div#away-box ul#deplacements-ajd li {
+	list-style-type: square;
+	list-style-position: inside;
+	color: #0078ff;
+	line-height: 20px;
+}
+
+div#away-box ul#deplacements-ajd li span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	color: #039;
+}
+
+div#away-box ul#deplacements-ajd li span.thick {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #039;
+}
+
+div#away-box div#list-away {
+	margin: 5px;
+	border: 0px;
+	border-left: 1px solid #0078ff;
+	padding: 0px;
+	padding-left: 3px;
+}
+
+div#away-box div#list-away span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #363;
+}
+
+div#away-box div#list-away a:link, div#away-box div#list-away a:visited {
+	font-family: Verdana;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #363;
+}
+
+div#away-box div#list-away a:hover, div#away-box div#list-away a:active {
+	font-family: Verdana;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3c3;
+}
+
+
+div#away-box div#list-away div.listelement {
+	color: #3f75ac;
+	border: 0px solid #000;
+	margin-bottom:3px;
+	height: 33px;
+	margin-top: 5px;
+}
+
+div#away-box div#list-away div.listelement div#date {
+	position:relative;
+/*	top: -20px;
+	left: 10px;*/
+	border: 0px solid #00f;
+	height: 15px;
+	width: 150px;
+	text-align: center;
+}
+
+div#away-box div#list-away div.listelement div#date span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #006;
+	position: relative;
+}
+
+
+div#away-box div#list-away div.listelement div#cust {
+	position:relative;
+/*	top: -15px;
+	left: 5px;*/
+	border: 1px solid #fff;
+	height: 15px;
+	width: 250px;
+}
+
+div#away-box div#list-away div.listelement div#cust span {
+	position: relative;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #006;
+}
+
+div#away-box div#list-away div.listelement div#mac {
+	position:relative;
+	top: -18px;
+	left: 275px;
+	border: 1px solid #fff;
+	height: 15px;
+	width: 275px;
+}
+
+div#away-box div#list-away div.listelement div#mac span {
+	position: relative;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #006;
+}
+
+div#away-box div#list-away div.listelement div#dist {
+	position:relative;
+	top: -51px;
+	left: 160px;
+	border: 1px solid #fff;
+	height: 15px;
+	width: 250px;
+}
+
+div#away-box div#list-away div.listelement div#dist span {
+	position: relative;
+/*	top: -10px;*/
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #006;
+}
+
+div#away-box div#list-away div.listelement div#prest {
+	position:relative;
+	top: -68px;
+	left: 425px;
+	border: 1px solid #fff;
+	height: 15px;
+	width: 200px;
+}
+
+div#away-box div#list-away div.listelement div#prest span {
+	position: relative;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #006;
+}
+
+div#away-box div#showweek {
+	border: 1px solid #cc6;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 5px;
+	height:700px;
+}
+
+div#away-box div#showweek h3 {
+	font-family: Georgia;
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	border: 0px;
+	text-align: left;
+	color: #036;
+	margin-bottom: 5px;
+}
+
+div#away-box div#showweek div#headers {
+	padding: 0px;
+	margin: 0px;
+	margin-left: 50px;
+}
+
+div#away-box div#showweek div#headers div.header {
+	float: left;
+	width: 75px;
+	border: 0px solid #000;
+	text-align:center;
+	border-left: 1px solid #039;
+	border-right: 1px solid #039;
+	margin-left: 4px;
+	height: 35px;
+}
+
+div#away-box div#showweek div#headers div.header span.date {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #039;
+}
+
+div#away-box div#showweek div#hours {
+	clear:both;
+	float:left;
+	width: 50px;
+	border:0px solid #000;
+}
+
+div#away-box div#showweek div#hours ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#away-box div#showweek div#hours ul li {
+	list-style-type: none;
+	color: #039;
+	border: 0px;
+	border-bottom: 1px solid #039;	
+	height: 20px;
+}
+
+
+div#away-box div#showweek div#grid {
+	border: 0px solid #ff0000;
+	height:525px;
+	width: 575px;
+	margin-left: 50px;
+	margin-top: 32px;
+	background: #fff;
+}
+
+div#away-box div#showweek div#grid div.hide {
+	display: none;
+	}
+
+div#away-box div#showweek div#grid div.day {
+	float:left;
+	border:0px solid #000;
+	border-left: 1px solid #808080;
+	border-right: 1px solid #808080;
+	margin-left: 4px;
+	margin-top:1px;
+	width: 75px;
+	height: 502px;
+}
+div#away-box div#showweek div#grid div.day ul {
+	margin: 0px;
+	margin-top: -2px;
+	padding: 0px;
+}
+
+div#away-box div#showweek div#grid div.day ul li {
+	height:20px;
+	border: 0px;
+	border-bottom: 1px solid #dfdf8f;
+	list-style-type:none;	
+	background: #fefebe;
+}
+
+div#away-box div#showweek div#grid div.day ul li div.show {
+	display: block;
+}
+
+div#away-box div#showweek div#grid div.day ul li div.hide {
+	display: none;
+}
+
+div#away-box div#showmonth {
+	border: 1px solid #cc6;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 5px;
+}
+
+div#away-box div#showmonth div.hide {
+	display: none;
+	}
+
+div#away-box div#showmonth div#headers {
+	height: 15px;
+	margin: 0px;
+	margin-bottom:3px;
+}
+
+div#away-box div#showmonth div.w1 {
+	border:0px solid #000;
+	height: 130px;
+	background: #ffc;
+}
+
+div#away-box div#showmonth div.w2 {
+	border:0px solid #000;
+	height: 130px;
+	background: #ffc;
+}
+
+div#away-box div#showmonth div.w3 {
+	border:0px solid #000;
+	height: 130px;
+	background: #ffc;
+}
+
+div#away-box div#showmonth div.w4 {
+	border:0px solid #000;
+	height: 130px;
+	background: #ffc;
+}
+
+div#away-box div#showmonth div.w5 {	
+	border:0px solid #000;
+	height: 130px;
+	background: #ffc;
+}
+
+div#away-box div#showmonth div.w6 {	
+	border:0px solid #000;
+	height: 130px;
+	background: #ffc;
+}
+
+div#away-box div#showmonth div#headers div.header {
+	border: 0px solid #000;
+	width: 88px;
+	height: 15px;
+	float:left;
+	text-align: center;
+}
+
+div#away-box div#showmonth div#headers div.header span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+	color: #039;
+}
+
+div#away-box div#showmonth * div.day {
+	border: 0px solid #000;
+	width: 88px;
+	height: 130px;
+	float:left;
+}
+
+div#away-box div#showmonth * div.day span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-style: italic;
+	font-weight: normal;
+	text-decoration: none;
+	color: #039;
+}
+
+div#away-box div#showmonth * div.day span.none {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-style: italic;
+	font-weight: normal;
+	text-decoration: none;
+	color: #900;
+}
+
+div#away-box div#showmonth * div.day a:link,div#away-box div#showmonth * div.day a:visited {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: normal;
+	text-decoration: underline;
+	font-style: normal;
+	color: #039;
+}
+
+div#away-box div#showmonth * div.day a:hover, div#away-box div#showmonth * div.day a:active {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #039;
+}
+
+div#away-box div#showmonth label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#away-box div#showmonth * div.day h3 {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+	color: #039;
+	margin: 0px;
+	text-align: center;
+}
+
+div#away-box div#showmonth * div.day ul {
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid #000;
+	height: 80px;
+	overflow: hidden;
+}
+
+div#away-box div#showmonth * div.day ul li {	
+	list-style-type: circle;
+	list-style-position: inside;
+	color: #039;
+	font-family: Verdana;
+	font-size: 7pt;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	height: 10px;
+	border: 0px solid #000;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+}
+
+div#away-box div#showmonth * div.day div.show {
+	display:block;
+}
+
+div#away-box div#showmonth * div.day div.hide {
+	display:none;
+}
+
+div#away-box div#infos-deplacement  {
+	border: 0px solid #000;
+	border-right: 0px dashed #0659ae;
+	height: 225px;
+	padding: 5px;
+}
+	
+div#away-box div#infos-deplacement select#list-prest {
+	border: 0px solid #363;
+	height: 200px;
+	width: 275px;
+	margin: 5px;
+	padding: 0px;
+	overflow:auto;
+	float: left;
+}	
+
+div#away-box div#infos-deplacement select#list-prest option {
+	list-style-type: none;
+	line-height: 15px;
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#away-box div#infos-deplacement div#other-halfth {
+	border: 0px solid #000;
+	margin: 0px;
+}
+
+div#away-box div#infos-deplacement div#other-halfth label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#away-box div#infos-deplacement div#other-halfth input.desc-prest {
+	border: 1px solid #701604;
+	background: #fff;
+	height: 20px;
+	width: 175px;
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+div#away-box div#infos-deplacement div#other-halfth select#list-tech {
+	border: 1px solid #363;
+	height: 50px;
+	width: 250px;
+	margin: 5px;
+	padding: 0px;
+	overflow:auto;
+}	
+
+div#away-box div#infos-deplacement div#other-halfth select#list-tech option {
+	list-style-type: none;
+	line-height: 15px;
+	font-family: Verdana;
+	font-size: 7pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #333;
+}
+
+
+div#away-box div#infos-deplacement div#other-halfth input.button-add {
+	border: 1px solid #701604;
+	background: #f6f7fb;
+	height: 20px;
+	width: 150px;
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#away-box div#infos-deplacement h2 {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #701604;
+	}
+
+
+
+* div.good {
+	background: #cfc;
+	border: 1px solid #063;
+	width: 350px;
+	height: 35px;
+	text-align: center;
+	padding: 0px;
+	padding-top: 15px;
+}
+
+* div.good span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#away-box div#add-away-box label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#away-box div#add-away-box input.text {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+	border: 1px dotted #0078ff;
+	width: 250px;
+}
+
+div#away-box div#add-away-box select {
+	border: 1px solid #363;
+	height: 75px;
+	width: 250px;
+	margin: 5px;
+	padding: 0px;
+	overflow:auto;
+}	
+
+div#away-box div#add-away-box select option {
+	list-style-type: none;
+	line-height: 15px;
+	font-family: Verdana;
+	font-size: 7pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #333;
+}
+
+div#away-box div#add-away-box input.button {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+	border: 1px solid #0078ff;
+	background: #fff;
+}
+
+div#away-box div#add-away-box div#info-client {
+	float:right;
+}
+
+div#away-box div#add-away-box div#list-clients {
+	border: 0px solid #000;
+	height: 245px;
+	width: 250px;
+	margin: 0px;
+	margin-left: 15px;
+}
+
+div#away-box div#add-away-box div#list-clients h3 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	font-style:italic;
+	text-decoration: underline;
+	color: #0659ae;
+	text-align: center;
+}
+
+div#away-box div#add-away-box ul#customer-list {
+	height: 150px;
+	overflow:auto;
+	margin: 0px;
+	padding: 0px;
+	border:0px solid #f00;
+	border-left: #0659ae;
+}
+
+div#away-box div#add-away-box ul#customer-list li {
+	list-style-type: none;
+	line-height: 15px;
+}
+
+div#away-box div#add-away-box ul#customer-list li.show {
+	display:block;
+}
+
+div#away-box div#add-away-box ul#customer-list li.hide {
+	display:none;
+}
+
+div#away-box div#add-away-box ul#customer-list li span {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+
+div#away-box div#info-depl {
+	padding: 0px;
+	padding-left: 10px;
+	margin: 0px;
+}
+
+div#away-box div#info-depl h3 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: italic;
+	color: #039;
+	border: 0px solid #000;
+	border-bottom: 1px solid #0078ff;
+	width: 50%;
+}
+
+div#away-box div#info-depl label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#away-box div#info-depl span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #039;
+}
+
+div#away-box div#info-depl ul#prest-done {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 10px;
+}
+
+div#away-box div#info-depl ul#prest-done li {
+	list-style-type: circle;
+	list-style-position: inside;
+	border: 0px solid #000;
+	font-family: Georgia;
+	font-size: 10pt;
+	font-style: italic;
+	font-weight: normal;
+	text-decoration: none;
+	color: #039;
+}
+
+div#away-box div#info-depl ul#admin-op {
+	margin: 0px;
+	padding: 0px;
+	height: 45px;
+}
+
+div#away-box div#info-depl ul#admin-op li {
+	list-style-type: circle;
+	list-style-position: inside;
+	width: 240px;
+	border: 0px solid #000;
+	color: #039;
+	float: left;
+}
+
+div#away-box div#dist-box {
+	padding: 0px;
+	padding-left: 10px;
+	margin: 0px;
+}
+
+div#away-box div#dist-box h3 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: italic;
+	color: #039;
+	border: 0px solid #000;
+	border-bottom: 1px solid #0078ff;
+	width: 50%;
+}
+
+div#away-box div#dist-box ul {	
+	margin: 0px;
+	padding: 0px;
+	padding-left: 10px;
+}
+
+div#away-box div#dist-box ul li {
+	list-style-type: circle;
+	list-style-position: inside;
+	line-height: 20px;
+	font-family: Georgia;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #0078ff;
+}
+
+div#away-box div#dist-box form {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#away-box div#dist-box input.desc {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+	border: 1px dotted #0078ff;
+	width: 320px;
+}
+
+div#away-box div#dist-box input.prize {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+	border: 1px dotted #0078ff;
+	width: 75px;
+	margin-left: 5px;
+}
+
+div#away-box div#dist-box input.button {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+	border: 1px solid #0078ff;
+	background: #fff;
+	margin-left: 5px;
+}
+
+a:link, a:visited {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	font-style: normal;
+	color: #039;
+}
+
+a:hover, a:active {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #039;
+}
+

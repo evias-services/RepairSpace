@@ -1,0 +1,221 @@
+div#stats-center h1 {
+	font-family: Georgia;
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #606;
+}
+
+div#stats-center h2 {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+	margin-left: 10px;
+	border: 0px;
+	border-bottom: 1px solid #0078ff;
+	width: 350px;
+	text-align: right;
+}
+
+div#stats-center span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #606;
+}
+
+div#stats-center hr {
+	width: 75%;
+	text-align: center;
+	color: #0078ff;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+div#stats-center div.stat-window {
+	border: 1px solid #053a76;
+	background: #d5e2f0;
+	width: 90%;
+	margin-left: 25px;
+	padding: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+div#stats-center div.stat-window h2 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #ff7800;
+	margin-left: 10px;
+	border: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+div#stats-center div.stat-window h3 {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+	margin-left: 10px;
+	border: 0px;
+	border-bottom: 1px solid #0078ff;
+	width: 150px;
+	text-align: right;
+}
+
+div#stats-center div.stat-window ul {
+	margin: 0px;
+	padding: 0px;
+	background: transparent;
+	border: 0px solid #000;
+}
+
+div#stats-center div.stat-window ul li {
+	list-style-type: circle;
+	list-style-position: inside;
+	height: 15px;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+}
+
+div#stats-center div.stat-window h3.month {
+}
+div#stats-center div.stat-window div.tech {
+	height: 20px;
+	border: 0px solid #ff0000;
+	margin: 0px;
+	margin-bottom: 4px;
+}
+
+div#stats-center div.stat-window div.tech div#name {
+	width: 80px;
+	border : 0px solid #000;
+	border-right: 0px solid #ff0000;
+	float: left;
+}
+
+div#stats-center div.stat-window div.tech div#data {
+	width: 400px;
+	border:0px solid #00f;
+	margin-left: 85px;
+}
+
+div#stats-center div.stat-window div.tech div#data div#percent {
+	margin-top: 2px;
+	height: 10px;
+	float:left;
+	text-align: center;
+}
+
+div#stats-center div.stat-window div.tech div#data div#percent span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	color: #000;
+	margin: 0px;
+}
+
+div#stats-center div.stat-window div.tech div#data span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	color: #960;
+	margin-left: 10px;
+}
+
+div#stats-center div.stat-window h4 {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	color: #ff7800;
+	width: 350px;
+	text-align: right;
+	border: 0px;
+	border-bottom: 1px solid #ff7800;
+}
+
+div#stats-center div.stat-window div div.sndlvl-stat-wnd {
+	border: 1px solid #6e6d6b;
+	background: #fff;
+	width: 300px;
+	margin-left: 25px;
+	padding: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+div#stats-center div.stat-window div div.sndlvl-stat-wnd div.service {
+	height: 20px;
+	border: 0px solid #ff0000;
+	margin: 0px;
+	margin-bottom: 4px;
+}
+
+div#stats-center div.stat-window div div.sndlvl-stat-wnd div.service div#name {
+	width: 80px;
+	border : 0px solid #000;
+	border-right: 0px solid #ff0000;
+	float: left;
+}
+
+div#stats-center div.stat-window div div.sndlvl-stat-wnd div.service div#data {
+	width: 200px;
+	border:0px solid #00f;
+	margin-left: 85px;
+}
+
+div#stats-center div.stat-window div div.sndlvl-stat-wnd div.service div#data div#percent {
+	margin-top: 2px;
+	height: 10px;
+	float:left;
+	text-align: center;
+}
+
+div#stats-center div.stat-window div div.sndlvl-stat-wnd div.service div#data div#percent span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	color: #000;
+	margin: 0px;
+}
+
+div#stats-center div.stat-window div div.sndlvl-stat-wnd div.service div#data span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	color: #960;
+	margin-left: 10px;
+}
+
+div#stats-center div.stat-window div.hide {
+	display: none;
+}
+
+div#stats-center div.stat-window div.show {
+	display: block;
+}

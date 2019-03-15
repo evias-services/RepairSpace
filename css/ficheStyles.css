@@ -1,0 +1,527 @@
+div#print-fiche {
+	border: 0px;
+	border-bottom: 1px solid #3f75ac;
+	background: #f6f7fb;
+	padding: 0px;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-bottom: 8px;
+}
+
+div#print-fiche a:link,div#print-fiche a:visited {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #006;
+}
+
+div#print-fiche a:active, div#print-fiche a:hover {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #66c;
+}
+
+div#info-legale {
+	border: 1px solid #0659ae;
+	background: #f6f7fb;
+	margin: 5px;
+	height: 115px;	
+}
+
+div#info-legale h1 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #0659ae;
+	text-align: center;
+}
+
+div#info-legale label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#info-legale span {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#info-machines {
+	border: 1px solid #701604;
+	background: #f6f7fb;
+	margin: 5px;	
+}
+
+div#info-machines h1 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #701604;
+	text-align: center;
+}
+
+div#info-machines div.machine {
+	border: 0px solid #f00;
+	height: 65px;
+}
+
+div#info-machines div.machine div.title {
+	position: relative;
+	left:0px;
+	top: 0px;
+	border: 0px solid #f00;
+	border-bottom: 1px solid #701604;
+	width: 50%;
+	margin: 0px;
+	margin-left: 15px;
+	height: 15px;
+}
+
+div#info-machines div.machine div.title span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #701604;
+}
+
+div#info-machines div.machine div.data {
+	border: 0px solid #000;
+}
+
+div#info-machines div.machine div.data label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#info-machines div.machine div.data span {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#info-machines div.machine-rep {
+	border: 0px solid #f00;
+}
+
+div#info-machines div.machine-rep div.title {
+	position: relative;
+	left:0px;
+	top: 0px;
+	border: 0px solid #f00;
+	border-bottom: 1px solid #701604;
+	width: 50%;
+	margin: 0px;
+	margin-left: 15px;
+	height: 15px;
+}
+
+div#info-machines div.machine-rep div.title span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #701604;
+}
+
+div#info-machines div.machine-rep div.data {
+	border: 0px solid #000;
+}
+
+div#info-machines div.machine-rep div.data label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#info-machines div.machine-rep div.data span {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#info-rep {
+	border: 1px solid #881e98;
+	background: #f6f7fb;
+	margin: 5px;	
+}
+
+div#info-rep h1 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #881e98;
+	text-align: center;
+}
+
+div#info-rep div.rep {
+	border: 0px solid #f00;
+	margin: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+div#info-rep div.rep div.title {
+	position: relative;
+	left:0px;
+	top: 0px;
+	border: 0px solid #f00;
+	border-bottom: 1px solid #881e98;
+	width: 50%;
+	margin: 0px;
+	margin-left: 15px;
+	height: 15px;
+}
+
+div#info-rep div.rep div.title span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #881e98;
+}
+
+div#info-rep div.rep div.data {
+	border: 0px solid #000;
+}
+
+div#info-rep div.rep div.data label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#info-rep div.rep div.data span {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#info-rep div.rep div.data ul {
+	border: 0px solid #000;
+	border-left: 1px solid #881e98;
+	margin: 0px;
+	margin-left: 25px;
+	padding: 0px;
+	padding-left: 7px;
+/*	height: 90px;*/
+/*	width: 350px;*/
+	overflow: auto;
+}
+
+div#info-rep div.rep div.data ul li {
+	list-style-type: none;
+	margin-top: 2px;
+	margin-bottom: 1px;
+	line-height: 15px;
+}
+
+/* ************************************************************ */
+
+div#info-depl {
+	border: 1px solid #823e02;
+	background: #f6f7fb;
+	margin: 5px;	
+}
+
+div#info-depl h1 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ff7800;
+	text-align: center;
+}
+
+div#info-depl div.depl {
+	border: 0px solid #f00;
+	margin: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+div#info-depl div.depl div.title {
+	position: relative;
+	left:0px;
+	top: 0px;
+	border: 0px solid #f00;
+	border-bottom: 1px solid #881e98;
+	width: 80%;
+	margin: 0px;
+	margin-left: 15px;
+	height: 15px;
+}
+
+div#info-depl div.depl div.title span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ff7800;
+}
+
+div#info-depl div.depl div.data {
+	border: 0px solid #000;
+}
+
+div#info-depl div.depl div.data label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#info-depl div.depl div.data span {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#info-depl div.depl div.data ul {
+	border: 0px solid #000;
+	border-left: 1px solid #ff7800;
+	margin: 0px;
+	margin-left: 25px;
+	padding: 0px;
+	padding-left: 7px;
+/*	height: 90px;*/
+/*	width: 350px;*/
+	overflow: auto;
+}
+
+div#info-depl div.depl div.data ul li {
+	list-style-type: none;
+	margin-top: 2px;
+	margin-bottom: 1px;
+	line-height: 15px;
+}
+
+div.good {
+	background: #cfc;
+	border: 1px solid #063;
+	width: 350px;
+	height: 35px;
+	text-align: center;
+	padding: 0px;
+	padding-top: 15px;
+}
+
+div.good span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div.bad {
+	background: #fcc;
+	border: 1px solid #900;
+	width: 350px;
+	height: 35px;
+	text-align: center;
+	padding: 0px;
+	padding-top: 15px;
+}
+
+div.bad span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#panel-clients {
+	border: 0px solid #0659ae;
+	background: #fff;
+	margin: 5px;
+}
+
+div#panel-clients h1 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #0659ae;
+	text-align: center;
+}
+
+div#panel-clients div#add-new-client {
+	border: 0px solid #000;
+	height: 225px;
+	width: 250px;
+	position: relative;
+}
+
+div#panel-clients div#add-new-client h2 {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #0659ae;
+	text-align: center;
+}
+
+div#panel-clients div#add-new-client label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#panel-clients div#add-new-client input {
+	border: 1px solid #881e98;
+	background: #f6f7fb;
+	height: 20px;
+	width: 150px;
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#panel-clients div#add-new-client .hide {
+	display: none;
+}
+
+div#panel-clients div#add-new-client .show {
+	display: none;
+}
+
+div#panel-clients div#list-clients {
+	border: 0px solid #000;
+	height: 245px;
+	width: 250px;
+	position: relative;
+	top: -237px;
+	left: 350px;
+}
+
+div#panel-clients div#list-clients h2 {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #0659ae;
+	text-align: center;
+}
+
+div#panel-clients div#list-clients ul#customer-list {
+	height: 200px;
+	overflow:auto;
+	margin: 0px;
+	padding: 0px;
+	border:0px solid #f00;
+	border-left: #0659ae;
+}
+
+div#panel-clients div#list-clients ul#customer-list li {
+	list-style-type: none;
+	line-height: 15px;
+}
+
+div#panel-clients div#list-clients ul#customer-list li.show {
+	display:block;
+}
+
+div#panel-clients div#list-clients ul#customer-list li.hide {
+	display:none;
+}
+
+div#panel-clients div#list-clients ul#customer-list li span {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#panel-clients hr {
+	width:80%;
+	color: #f00;
+	margin-top: -200px;
+}
+
+div#panel-clients div#import-client {
+	border: 0px solid #000;
+	height: 225px;
+	width: 250px;
+	position: relative;
+}
+
+div#panel-clients div#import-client div span {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight:bold;
+	text-decoration: none;
+	color: #333;
+	
+}
+
+div#panel-clients div#import-client h2 {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #0659ae;
+	text-align: center;
+}
+
+div#panel-clients div#import-client label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#panel-clients div#import-client input {
+	border: 1px solid #881e98;
+	background: #f6f7fb;
+	height: 20px;
+	width: 150px;
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#panel-clients div#import-client .hide {
+	display: none;
+}
+
+div#panel-clients div#import-client .show {
+	display: none;
+}

@@ -1,0 +1,156 @@
+div#add-data div#list-clients {
+	border: 0px solid #000;
+	height: 245px;
+	width: 250px;
+	margin: 0px;
+	margin-left: 15px;
+}
+
+div#add-data div#list-clients h3 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	font-style:italic;
+	text-decoration: underline;
+	color: #0659ae;
+	text-align: center;
+}
+
+div#add-data ul#customer-list {
+	height: 150px;
+	overflow:auto;
+	margin: 0px;
+	padding: 0px;
+	border:0px solid #f00;
+	border-left: #0659ae;
+}
+
+div#add-data ul#customer-list li {
+	list-style-type: none;
+	line-height: 15px;
+}
+
+div#add-data ul#customer-list li.show {
+	display:block;
+}
+
+div#add-data ul#customer-list li.hide {
+	display:none;
+}
+
+div#add-data ul#customer-list li span {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+div#add-data div#info-client {
+	float:right;
+	margin-bottom: 0px;
+}
+
+div#add-data  div#info-client  h3 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: italic;
+	color: #039;
+	border: 0px solid #000;
+	border-bottom: 1px solid #0078ff;
+	width: 50%;
+}
+
+div#add-data  div#info-client  label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#add-data  div#info-client  span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #039;
+}
+
+div#add-data select {
+	border: 1px solid #363;
+	height: 75px;
+	width: 200px;
+	margin: 0px;
+	padding: 0px;
+	overflow:auto;
+}	
+
+div#add-data select option {
+	list-style-type: none;
+	line-height: 15px;
+	font-family: Verdana;
+	font-size: 7pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #333;
+}
+
+div#add-data label {
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #3f75ac;
+}
+
+div#add-data textarea {
+	border: 1px solid #0078ff;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+	height: 75px;
+	width: 200px;
+}
+
+div#add-data input {
+	border: 1px solid #0078ff;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+}
+
+div#add-data input.button {
+	border: 1px solid #0078ff;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+	background:#dcdcdc;
+}
+
+div#add-data h1 {
+	font-family: Georgia;
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: underline;
+	color: #006;
+	text-align: center;
+}
+
+div#add-data hr {
+	width: 50%;
+	color: #0078ff;
+}

@@ -1,0 +1,705 @@
+div#eye-online {
+	height: 320px;
+	width: 240px;
+	border: 1px solid #009933;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+div#eye-online div#eye-on-menu {
+	height: 56px;
+	width: 232px;
+	margin-left: 2px;
+	margin-right: 2px;	
+}
+
+div#eye-online div#eye-on-menu div#menu-cont {
+	height: 46px;
+	border: 0px solid #f00;
+	text-align: center;
+}
+
+div#eye-online div#eye-on-menu div#menu-bg {
+	height: 10px;
+	background: url( ../images/oneyetopbg.png ) repeat #fff;
+}
+
+div#eye-online div#eye-on-menu div#menu-cont input.text {
+	border: 1px solid #093;
+	width: 100px;
+	height: 20px;
+}
+
+div#eye-online div#eye-on-menu div#menu-cont input.button {
+	border: 1px solid #093;
+	width: 50px;
+	height: 20px;
+	background: #dcdcdc;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style:italic;
+	text-decoration: none;
+	color: #093;
+	margin-left: 5px;
+	margin-top: 2px;
+}
+
+div#eye-online div#eye-on-menu div#menu-cont ul {
+	margin: 0px; 
+	padding: 0px;
+}
+
+div#eye-online div#eye-on-menu div#menu-cont  ul li {
+	list-style-type: none;
+	list-style-position: inside;	
+	float: left;
+}
+
+div#eye-online div#eye-on-menu div#menu-cont  ul li a:link, div#eye-online div#eye-on-menu div#menu-cont  ul li a:visited {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #093;
+}
+
+div#eye-online div#eye-on-menu div#menu-cont  ul li a:hover, div#eye-online div#eye-on-menu div#menu-cont  ul li a:active {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #093;
+}
+
+div#eye-online div#eye-on-menu div#menu-cont  ul li a.disco:link, div#eye-online div#eye-on-menu div#menu-cont  ul li a.disco:visited {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #093;
+}
+
+div#eye-online div#eye-on-menu div#menu-cont  ul li a.disco:hover, div#eye-online div#eye-on-menu div#menu-cont  ul li a.disco:active {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: line-through;
+	color: #093;
+}
+
+div#eye-online div#eye-on-content {
+	border: 0px solid #093;
+	min-height: 250px;
+}
+
+div#eye-online div#eye-on-content div#content-bg {
+	width: 8px;
+	margin-left: 10px;
+	height: 250px;
+	background: url( ../images/oneyeleftbg.png ) repeat #fff left;
+	float: left;
+	border: 0px solid #000;
+	margin-right: 5px;
+}
+
+div#eye-online div#eye-on-content div#content-data {
+	border: 0px solid #f00;
+	width: 210px;
+	height: 260px;
+	margin-left: 20px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-week div.header {
+	border: 0px;
+	border-bottom: 1px solid #000;
+	text-align: left;
+	width: 205px;
+	height: 15px;
+	clear:both;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-week div.header span {
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: bold;
+	font-style:normal;
+	text-decoration: none;
+	color: #05801c;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-week div.link {
+	border: 0px;
+	border-bottom: 1px solid #000;
+	text-align: left;
+	width: 115px;
+	height: 15px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-week div.link span {
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: bold;
+	font-style:normal;
+	text-decoration: none;
+	color: #05801c;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-week div.data {
+	border: 1px solid #eac208;
+	text-align: left;
+	width: 190px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+	background: #fcf5d6;
+	height: 50px;
+/*	height: 100%;*/
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-week div.data span {
+	font-family: Verdana;
+	font-size:10pt;
+	font-weight: normal;
+	font-style:italic;
+	text-decoration:none;
+	color:#e4440d;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-week div.data ul.day {
+	margin: 5px;
+	padding: 0px;
+/*	height: 45px;*/
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-week div.data ul.day li a:link, div#eye-online div#eye-on-content div#content-data div#window-week div.data ul.day li a:visited {
+	font-family: Verdana;
+	font-size: 7pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	position: relative;
+	top: -5px;
+	color: #0c30cc;
+}
+div#eye-online div#eye-on-content div#content-data div#window-week div.data ul.day li a:hover, div#eye-online div#eye-on-content div#content-data div#window-week div.data ul.day li a:active {
+	font-family: Verdana;
+	font-size: 7pt;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	margin: 0px;
+	position: relative;
+	top: -5px;
+	color: #0c30cc;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-week div.data ul.day li.meeting {
+	list-style-type: none;
+	list-style-position: inside;
+	width: 28px;
+	height: 13px;
+	background: #facbef;
+	border: 1px solid #ea08b8;	
+	color: #690452;
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	float: left;
+	padding: 0px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-week div.data ul.day li.depl {
+	list-style-type: none;
+	list-style-position: inside;
+	width: 28px;
+	height: 13px;
+	background: #dbe1fb;
+	border: 1px solid #4764fa;
+	color: #051a7f;
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	float: left;
+	padding: 0px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-week div.data ul.day li.event {
+	list-style-type: none;
+	list-style-position: inside;
+	width: 28px;
+	height: 13px;
+	background: #d6fad9;
+	border: 1px solid #33e544;
+	color: #036d0d;
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	float: left;
+	padding: 0px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-week div.data ul.day li.task {
+	list-style-type: none;
+	list-style-position: inside;
+	width: 28px;
+	height: 13px;
+	background: #f6daaf;
+	border: 1px solid #e9a130;
+	color: #835204;
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	float: left;
+	padding: 0px;
+}
+
+div#eye-online div#eye-on-content div#content-data div.show {
+	display:block;
+	}
+	
+	div#eye-online div#eye-on-content div#content-data div.hide {
+	display:none;
+	}
+	
+div#eye-online div#eye-on-content div#content-data div#window-day span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style:italic;
+	text-decoration: underline;
+	color: #093;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day h1 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: normal;
+	font-style:normal;
+	text-decoration: none;
+	color: #039;
+	margin-left: 5px;
+	width: 100%;
+	border: 0px;
+	border-bottom: 0px solid #093;
+	text-align: center;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day h2 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	font-style:normal;
+	text-decoration: none;
+	color: #093;
+	margin-left: 15px;
+	width: 100%;
+	border: 0px;
+	border-bottom: 1px solid #093;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day h2.hours {
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style:normal;
+	text-decoration: none;
+	color: #093;
+	margin-left: 5px;
+	width: 80%;
+	border: 0px;
+	border-bottom: 1px solid #093;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day div#day-hours ul#hl {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 40px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day div#day-hours ul#hl li {
+	list-style-type:none;
+	list-style-position: inside;
+	height: 20px;
+	border: 1px solid #fff;
+	color: #039;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day div#day-hours ul#data {
+	margin: 0px;
+	margin-left: 42px;
+	padding: 0px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day div#day-hours ul#data li {
+	list-style-type:none;
+	list-style-position: inside;
+	height: 20px;
+	width: 140px;
+	border: 1px solid #0c3;
+	background: #cfc;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day div#day-hours ul#data li ul#inhour {
+	margin: 3px;
+	padding: 0px;
+	height: 14px;
+	width: 115px;
+	border: 0px solid #f00;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day div#day-hours ul#data li ul#inhour li.away {
+	list-style-type:none;
+	list-style-position: inside;
+	height: 10px;
+   width: 10px;
+	border: 1px solid #999;
+	background: #ccc;
+	float:left;
+	margin: 2px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day div#day-hours ul#data li ul#inhour li.meeting {
+	list-style-type:none;
+	list-style-position: inside;
+	height: 10px;
+   width: 10px;
+	border: 1px solid #66f;
+	background: #ccf;
+	float:left;
+	margin: 2px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day div#day-hours ul#data li ul#inhour li.event {
+	list-style-type:none;
+	list-style-position: inside;
+	height: 10px;
+   width: 10px;
+	border: 1px solid #fc6;
+	background: #ffc;
+	float:left;
+	margin: 2px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day div#day-hours ul#data li ul#inhour li.task {
+	list-style-type:none;
+	list-style-position: inside;
+	height: 10px;
+   width: 10px;
+	border: 1px solid #c03;
+	background: #fcc;
+	float:left;
+	margin: 2px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day ul {
+	margin: 3px;
+	padding: 0px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day ul li {
+	list-style-type: circle;
+	list-style-position: inside;
+	color: #093;
+/*	height: 60px;*/
+	border: 0px solid #f00;
+	border-bottom: 1px dashed #1479cf;
+	margin-bottom: 2px;	
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day ul li span.time {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style:italic;
+	text-decoration: none;
+	color: #039;
+/*	float: left;*/
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day ul li span.data {
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: normal;
+	font-style:normal;
+	text-decoration: none;
+	color: #039;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day ul li a:link, div#eye-online div#eye-on-content div#content-data div#window-day ul li a:visited {
+	font-family: Verdana;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style:normal;
+	text-decoration: underline;
+	color: #039;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-day ul li a:hover, div#eye-online div#eye-on-content div#content-data div#window-day ul li a:active {
+	font-family: Verdana;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style:normal;
+	text-decoration: none;
+	color: #039;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-notes h2 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	font-style:normal;
+	text-decoration: none;
+	color: #093;
+	margin-left: 5px;
+	width: 80%;
+	border: 0px;
+	border-bottom: 1px solid #093;
+	text-align: right;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-notes div {
+	width: 200px;
+	background: url( ../images/notebg.png ) repeat #fff;
+	border: 0px solid #000;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-notes div span {
+	font-family: Verdana;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style:normal;
+	text-decoration: none;
+	color: #11389c;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-notes div.show {
+	display:block;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-notes div.hide {
+	display:none;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data select {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	border : 1px dashed #000;
+	margin-top: 5px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data input.button {
+	font-family: Georgia; 
+	font-size: 9pt;
+	font-weight: bold;
+	margin-left: 4px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data input.clsch {
+	font-family: Georgia; 
+	font-size: 9pt;
+	font-weight: bold;
+	margin-left: 4px;
+	width: 125px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data span {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #093;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#info-client h3 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	font-style:italic;
+	text-decoration: underline;
+	color: #0659ae;
+	text-align: center;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#list-clients {
+	border: 0px solid #000;
+		width: 175px;
+	margin: 0px;
+	margin-left: 5px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#list-clients h3 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: bold;
+	font-style:italic;
+	text-decoration: underline;
+	color: #0659ae;
+	text-align: left;
+	width: 80%;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#list-clients ul.hide {
+	display:none;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#list-clients ul.show {
+	display:block;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#list-clients ul#customer-list {
+	overflow:auto;
+	margin: 0px;
+	margin-top: 3px;
+	padding: 3px;
+	border:0px solid #f00;
+	border-left: 1px solid #0659ae;
+	border-right: 1px solid #0659ae;
+	width: 175px;
+	background: #9cf;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#list-clients ul#customer-list li {
+	list-style-type: none;
+	margin-left: 4px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#list-clients ul#customer-list li.show {
+	display:block;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#list-clients ul#customer-list li.hide {
+	display:none;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#list-clients ul#customer-list li span {
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #333;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#info-client input.txt {
+	border: 1px solid #ff7800;
+	background: #fff;
+	font-family: Verdana;
+	font-style: normal;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ff7800;
+	margin-bottom: 3px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data label {
+	font-family: Verdana;
+	font-style: normal;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #ff7800;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data input.txt {
+	border: 1px solid #ff7800;
+	background: #fff;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ff7800;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data select#services {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	border : 1px dashed #000;
+	margin-top: 5px;
+	width: 205px;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#datacenter h3 {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style:italic;
+	text-decoration: underline;
+	color: #0659ae;
+	text-align: left;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#datacenter label {
+	font-family: Verdana;
+	font-size: 8pt;
+	font-weight: bold;
+	font-style:italic;
+	text-decoration: underline;
+	color: #0659ae;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#datacenter span {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	font-style:italic;
+	text-decoration: none;
+	color: #06ae26;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#datacenter span.special {
+	font-family: Georgia;
+	font-size: 8pt;
+	font-weight: bold;
+	font-style:italic;
+	text-decoration: none;
+	color: #0659ae;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#datacenter ul#serv-depl {
+	margin: 4px 0px 4px 0px;
+	padding: 2px 5px 2px 5px;
+	border: 0px;
+	border-left: 1px solid #ff7800;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#datacenter ul#serv-depl li {
+	list-style-type: none;
+	list-style-position: inside;	
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 0px;
+	border-bottom: 1px dashed #ff7800;
+	color: #ff7800;
+	font-family: Verdana;
+	font-size: 8pt;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div#eye-online div#eye-on-content div#content-data div#window-data div#datacenter ul#serv-depl li span.special {
+	color: #0659ae;
+	font-family: Verdana;
+	font-size: 8pt;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+}

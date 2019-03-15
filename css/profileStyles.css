@@ -1,0 +1,61 @@
+div#profile {
+	margin: 10px;
+}
+
+div#profile h1 {
+	font-family: Georgia;
+	font-size: 11pt;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	color : #0078ff;
+	width: 75%;
+	border: 0px;
+	border-bottom: 1px solid #0078ff;
+	text-align: right;
+}
+
+div#profile select {
+	border: 1px solid #0078ff;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	width: 150px;
+}
+
+div#profile input {
+	border: 1px solid #0078ff;
+	background: #fff;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+	text-align: right;
+	width: 150px;
+}
+
+div#profile input.button {
+	border: 1px solid #cee3fb;
+	background: #fff;
+	font-family: Georgia;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: #0078ff;
+	width: 100px;
+	text-align: center;
+}
+
+div#profile label {
+	font-family: Georgia;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: underline;
+	color: #0078ff;
+}
